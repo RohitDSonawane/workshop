@@ -1,0 +1,16 @@
+# Root level node_modules
+node_modules/
+
+# Server level node_modules
+server/node_modules/
+
+# Environment files containing secrets
+.env
+*.env
+server/.env
+
+# Data storage
+server/data/db.json
+
+# Logs
+*.log
